@@ -1,3 +1,7 @@
+# DollarBTC Frontend
+
+Web platform that provides services for DollarBTC OTC clients and also manages the entire administration platform for the DollarBTC and MoneyClick projects.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
