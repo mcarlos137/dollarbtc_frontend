@@ -1,0 +1,61 @@
+.container-list{
+  max-height: 400px;
+  height: 400px;
+  overflow: auto
+}
+
+.item-active-chat{
+  background-color: #cee6ff;
+  border-radius: 10px;
+  padding-left: 10px !important;
+  padding-top: 10px !important;
+}
+
+item-normal{
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 10px !important;
+  padding-top: 10px !important;
+}
+
+.item-newmessage {
+  background-color: #a7c7f8;
+  border-radius: 10px;
+  padding-left: 10px !important;
+  padding-top: 10px !important;
+  -webkit-animation: blink .75s linear infinite;
+  -moz-animation: blink .75s linear infinite;
+  -ms-animation: blink .75s linear infinite;
+  -o-animation: blink .75s linear infinite;
+  animation: blink .75s linear infinite;
+}
+@-webkit-keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 1; }
+  50.01% { opacity: 0; }
+  100% { opacity: 0; }
+}
+@-moz-keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 1; }
+  50.01% { opacity: 0; }
+  100% { opacity: 0; }
+}
+@-ms-keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 1; }
+  50.01% { opacity: 0; }
+  100% { opacity: 0; }
+}
+@-o-keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 1; }
+  50.01% { opacity: 0; }
+  100% { opacity: 0; }
+}
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 1; }
+  50.01% { opacity: 0; }
+  100% { opacity: 0; }
+}

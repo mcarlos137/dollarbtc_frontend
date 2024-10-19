@@ -1,0 +1,53 @@
+.inboxMessage {
+  max-width: 300px;
+  min-width: 200px;
+  white-space: normal;
+}
+.message-container {
+  overflow-wrap: break-spaces;
+  word-wrap: break-spaces;
+  hyphens: auto;
+  margin-bottom: 0;
+}
+
+.unread-message {
+  background-color: #e1f5fe !important;
+}
+
+.readed-message {
+  background-color: #fafafa !important;
+}
+
+#itemMessageUnread {
+  background-color: #e1f5fe !important;
+  padding: 0 10px 0 10px !important;
+}
+#itemMessageRead {
+  background-color: #fafafa !important;
+  padding: 0 10px 0 10px !important;
+}
+
+.date-message-align {
+  text-align: right;
+  font-size: 10px;
+}
+.badgestyle {
+  top: -0.05em !important;
+  left: 53px !important;
+  font-size: 11px !important;
+  background-color: #f7941d !important;
+}
+.badgestyleMovile {
+  top: 0.98em !important;
+  left: 63px !important;
+  font-size: 10px !important;
+  background-color: #f7941d !important;
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 768px) {
+  #countUnreadInbox.badgestyle {
+    margin: 1.5em 0 0 0.5em !important;
+    font-size: 11px !important;
+    background-color: #f7941d !important;
+  }
+}

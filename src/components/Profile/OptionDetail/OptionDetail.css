@@ -1,0 +1,82 @@
+@media only screen and (min-device-width: 450px) and (max-device-width: 768px) {
+    .progresstyle {
+        width: 85px;
+        margin-left: 5px
+    }
+}
+
+@media only screen and (min-device-width: 321px) and (max-device-width: 449px) {
+    .progresstyle {
+        width: 85px;
+        margin-left: 90px
+    }
+}
+
+@media only screen and (device-width: 411px) {
+    .progresstyle {
+        width: 85px;
+        margin-left: 100px
+    }
+}
+
+@media only screen and (device-width: 414px) {
+    .progresstyle {
+        width: 85px;
+        margin-left: 110px
+    }
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 320px) {
+    .progresstyle {
+        width: 85px;
+        margin-left: 65px
+    }
+}
+
+#name {
+    border-color: transparent!important;
+    color: black!important;
+    font-weight: bold!important;
+    opacity: 1.001;
+    background-color: transparent!important
+}
+
+#lastname {
+    border-color: transparent!important;
+    color: black!important;
+    font-weight: bold!important;
+    opacity: 1.001;
+    background-color: transparent!important
+}
+
+#email {
+    border-color: transparent!important;
+    color: black!important;
+    font-weight: bold!important;
+    opacity: 1.001;
+    background-color: transparent!important
+}
+
+#phone {
+    border-color: transparent!important;
+    color: black!important;
+    font-weight: bold!important;
+    opacity: 1.001;
+    background-color: transparent!important
+}
+
+div.disabled.field {
+    opacity: inherit!important;
+}
+
+.stepnot-verified {
+    background-color: red!important
+}
+
+.step-verified {
+    background-color: rgb(92, 199, 106)!important
+}
+
+.step-prosessin {
+    background-color: orange!important
+}

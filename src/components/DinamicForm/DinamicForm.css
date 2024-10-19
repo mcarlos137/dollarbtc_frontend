@@ -1,0 +1,6 @@
+.ui.disabled.input {
+    background: hsl(0, 0%, 96%)!important;
+    color: black !important;
+    opacity: 1 !important;
+    font-weight: bold;
+  }

@@ -1,0 +1,11 @@
+.fake-link {
+  color: #207ef2;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.infoUserParagraph {
+  overflow-x: auto;
+  max-height: 55px;
+  word-break: break-all;
+}

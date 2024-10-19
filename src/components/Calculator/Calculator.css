@@ -1,0 +1,34 @@
+.titleComponent {
+  color: #207ef2 !important;
+  text-transform: uppercase !important;
+}
+
+.containerstyle {
+  padding: 3px 60px 24px 60px;
+}
+
+.columstyle {
+  padding: 14px 0px 14px 0px !important;
+}
+
+.textPrice {
+  text-align: center;
+}
+
+.inputstyle {
+  width: 210px !important;
+}
+
+@media screen and (min-width: 450px) and (max-width: 768px) {
+  .calculator-imput {
+    font-size: 14px!important;
+    margin-right: 2px!important
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 450px) {
+  .calculator-imput {
+    font-size: 14px;
+    margin-right: 14px
+  }
+}

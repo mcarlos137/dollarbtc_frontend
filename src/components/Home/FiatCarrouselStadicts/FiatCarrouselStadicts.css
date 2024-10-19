@@ -1,0 +1,53 @@
+.yours-custom-class {
+    width: 80px;
+    height: 40px;
+    background-color: deepskyblue
+}
+
+.head-style {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px
+}
+
+.price-style {
+    color: #207ef2;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px
+}
+
+.price-style-homeLogue {
+    color: #207ef2;
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 5px
+}
+
+
+.file-style {
+    margin-top: 0px!important;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* border: 1px;
+    border-style: solid;
+    border-color: thistle; */
+}
+
+.price-conver-style {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 2px
+}
+
+.price-conver-style-homeLogue {
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 2px
+}
+
+@media screen and (min-width: 300px) and (max-width: 450px) {
+    div.alice-carousel {
+        margin-left: 20px
+    }
+}

@@ -1,0 +1,9 @@
+.marker-btn {
+    background-color: none;
+    border: none;
+    cursor: pointer;
+  }
+.marker-btn img {
+    width: 20px;
+    height: 25px;
+  }

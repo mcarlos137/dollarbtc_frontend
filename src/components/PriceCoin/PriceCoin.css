@@ -1,0 +1,14 @@
+.labelstyle {
+  margin-bottom: -6px;
+}
+
+.segmentstyle {
+  margin-bottom: -10px !important;
+  border-color: #efefef !important;
+  /*border-style: solid;*/
+  border: 0px;
+  -webkit-box-shadow: 0 4px 16px #efefef;
+  -moz-box-shadow: 0 4px 16px #efefef;
+  box-shadow: 0 4px 16px #efefef;
+  transition: all 0.7s ease;
+}

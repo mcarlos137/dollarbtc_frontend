@@ -1,0 +1,298 @@
+.menu {
+  background-color: #207ef2;
+  color: white;
+}
+
+.menu-item {
+  color: white;
+  font-size: 11px;
+  text-transform: uppercase !important;
+}
+
+.menu-item-admin {
+  color: #207ef2 !important;
+  font-size: 11px;
+  text-transform: uppercase !important;
+}
+
+.menu-item-mobile {
+  color: white;
+  font-size: 11px;
+  text-transform: uppercase !important;
+  text-align: "left";
+}
+.menu-item1 {
+  font-size: 8px;
+  text-transform: uppercase !important;
+}
+.menu-item2 {
+  font-size: 11px;
+  text-transform: uppercase !important;
+}
+
+.nav {
+  background-color: #ffffff; /* #207ef2 */
+  font-family: "Montserrat" !important;
+}
+
+.nav-admin {
+  background-color: #207ef2 !important; /* #207ef2 */
+  font-family: "Montserrat" !important;
+}
+.nav-adminClient {
+  background-color: rgb(0, 0, 0) !important; /* #207ef2 */
+  font-family: "Montserrat" !important;
+}
+
+.logo-item {
+  height: 47px;
+  width: 170px !important;
+  margin-right: 18px !important;
+}
+
+.logo {
+  width: 145px;
+  height: 35px;
+  margin-right: 1em;
+}
+
+.badgestyle {
+  top: -0.05em !important;
+  left: 53px !important;
+  font-size: 11px !important;
+  background-color: #f7941d !important;
+}
+
+@media only screen and (min-device-width: 768px) {
+  #countUnreadInbox.badgestyle-admin {
+    font-size: 11px !important;
+    background-color: #f7941d !important;
+    left: 55px;
+    margin-top: 10px !important;
+  }
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 768px) {
+  #countUnreadInbox.badgestyle-admin {
+    margin: 1.5em 0 0 -4em !important;
+    font-size: 11px !important;
+    background-color: #f7941d !important;
+  }
+}
+
+#balance-item {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#home {
+  background-color: transparent;
+  margin-right: 35px;
+}
+
+.stylebutton {
+  margin-right: 0px !important;
+}
+
+.elementstyle {
+  padding-bottom: 3px !important;
+  padding-top: 3px !important;
+}
+
+a#wallet.active.item {
+  font-weight: 1000 !important;
+}
+
+a#wallet.item:hover {
+  font-weight: 1000 !important;
+}
+
+a#sell.active.item {
+  font-weight: bold !important;
+}
+
+a#sell.item:hover {
+  font-weight: bold !important;
+}
+
+a#sell.item {
+  margin-right: 15px;
+}
+
+a#buy.active.item {
+  font-weight: bold !important;
+}
+
+a#buy.item {
+  margin-right: 15px;
+}
+
+a#buy.item:hover {
+  font-weight: bold !important;
+}
+
+a#HFTplans.active.item {
+  font-weight: 1000 !important;
+}
+
+a#HFTplans.item:hover {
+  font-weight: 1000 !important;
+}
+
+a#registration.active.item {
+  font-weight: 1000 !important;
+}
+
+a#registration.item:hover {
+  font-weight: 1000 !important;
+}
+
+a#login.active.item {
+  font-weight: 900 !important;
+}
+
+a#login.item:hover {
+  font-weight: 1000 !important;
+}
+
+a#profile.active.item {
+  font-weight: 900 !important;
+}
+
+a#profile.item:hover {
+  font-weight: 1000 !important;
+}
+
+a#forum.active.item {
+  font-weight: bold !important;
+}
+
+a#forum.item:hover {
+  font-weight: bold !important;
+}
+
+a#forum.item {
+  margin-right: 14px;
+}
+
+a#help.active.item {
+  font-weight: bold !important;
+}
+
+a#help.item {
+  margin-top: -10px !important;
+}
+
+a#help-new.item:hover {
+  font-weight: bold !important;
+}
+
+.justifiedLogos {
+  text-align: start;
+  color: white;
+}
+
+a#moneyclick.item > img.ui.tiny.image {
+  width: 125px !important;
+}
+
+#navpill {
+  margin-left: 15px !important;
+}
+
+#nad-help.ui.dropdown > .text {
+  margin-top: 3px !important;
+  font-size: 11px;
+}
+
+#help-new.ui.dropdown > .text {
+  font-size: 11px;
+  margin-right: 12px;
+}
+
+#help-new {
+  margin-top: -1px;
+}
+
+#lengu-select.ui.dropdown > .text {
+  /* color: white !important; */
+  color: #207ef2 !important;
+  margin-right: 12px;
+}
+#lengu-selectMovile.ui.dropdown > .text {
+  /* color: white !important; */
+  color: #ffffff !important;
+  /* margin-right: 12px; */
+}
+
+#buy {
+  border-right-style: solid;
+  border-right-width: thin;
+  padding-right: 20px;
+  border-right-color: darkgray;
+}
+
+#sell {
+  border-right-style: solid;
+  border-right-width: thin;
+  padding-right: 20px;
+  border-right-color: darkgray;
+}
+
+#forum {
+  border-right-style: solid;
+  border-right-width: thin;
+  padding-right: 20px;
+  border-right-color: darkgray;
+}
+
+#item-country-custom {
+  border-color: rgb(191, 183, 183);
+  border-style: solid;
+  border-radius: 50px;
+  border-left-width: 1px;
+  border-bottom-width: thin;
+  border-top-width: thin;
+  border-left-width: thin;
+  border-right-width: thin;
+}
+
+#button-buy-menu {
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+#button-sell-menu {
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+#drop-nav-login > div.text {
+  color: white;
+  margin-right: 5px;
+}
+
+#drop-nav-login2 > div.text {
+  color: "#207ef2";
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+#whoweare {
+  border-right-style: solid;
+  border-right-width: thin;
+  padding-right: 20px;
+  border-right-color: darkgray;
+}
+
+a#whoweare.active.item {
+  font-weight: bold !important;
+}
+
+a#whoweare.item:hover {
+  font-weight: bold !important;
+}
+
+a#whoweare.item {
+  margin-right: 14px;
+}

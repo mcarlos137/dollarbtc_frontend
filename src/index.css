@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("montserrat/Montserrat-Light.otf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 12px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+.header {
+  font-family: "Montserrat" !important;
+}
+
+button {
+  font-family: "Montserrat" !important;
+  font-size: 14px;
+}
+
+input {
+  background: #f4f4f4 !important;
+}
+
+.ui.blue.button,
+.ui.blue.buttons .button {
+  background-color: #6dadff !important;
+}
+
+.ui.blue.button:hover,
+.ui.blue.buttons .button:hover {
+  background-color: #207ef2 !important;
+  color: white !important;
+  border-color: #207ef2 !important;
+  border-style: solid;
+  border: 5px;
+  -webkit-box-shadow: 0 4px 16px #777;
+  -moz-box-shadow: 0 4px 16px #777;
+  box-shadow: 0 4px 16px #777;
+  transition: all 0.7s ease;
+}
+
+div.ui.orange.segment:not(.inverted) {
+  border-top: 10px solid #f7941d !important;
+}
+
+.ui.orange.segment:not(.inverted) {
+  border-top: 10px solid #f7941d !important;
+}
+
+div.ui.black.segment:not(.inverted) {
+  border-top: 10px solid #000000 !important;
+}
+
+.ui.black.segment:not(.inverted) {
+  border-top: 10px solid #000000 !important;
+}
+
+div.ui.inverted.orange {
+  background-color: #f7941d !important;
+}
+
+.ui.inverted.orange {
+  background-color: #f7941d !important;
+}
+
+.ui.inverted.orange.segment {
+  background-color: #f7941d !important;
+}

@@ -1,0 +1,44 @@
+.titlelegend {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+li.dot {
+  background-color: #F7941D!important;
+}
+
+.round {
+  border-bottom-left-radius: 25px!important;
+  border-top-left-radius: 25px!important;
+  border-bottom-right-radius: 25px!important;
+  border-top-right-radius: 25px!important; 
+  position: relative;
+  left: 538px;
+  top: -102px;
+  z-index: 1
+}
+.square {
+  position: relative;
+  left: 20px;
+  width:200px;
+  height:40px;
+  top: -70px;
+  z-index: 1
+}
+.square2 {
+  position: relative;
+  left: -230px;
+  top: -140px;
+  width:200px;
+  height:40px;
+  z-index: 2
+}
+.square3 {
+  position: relative;
+  left: -230px;
+  top: -120px;
+  width:200px;
+  height:40px;
+  z-index: 1
+}

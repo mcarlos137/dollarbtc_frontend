@@ -1,0 +1,52 @@
+.title {
+  color: #207ef2 !important;
+}
+
+.container-form-verify {
+  padding: 20px 15px 15px 15px;
+}
+
+.img-form {
+  width: 300px;
+  height: 300px;
+}
+
+#select-rebeld {
+  min-width: 0;
+}
+
+#select-rebeld-sex {
+  min-width: 0;
+}
+
+#ddd {
+  min-height: 0!important;
+  height: 150px!important;
+}
+
+#dddd {
+  min-height: 0!important;
+  height: 150px!important;
+}
+
+#ddddd {
+  min-height: 0!important;
+  height: 150px!important;
+}
+
+#dddddd {
+  min-height: 0!important;
+  height: 150px!important;
+}
+
+.imageFileV {
+  width: 140px!important;
+  height: 100px;
+  border: "2px";
+  align-content: center;
+  border-style: dashed;
+  border-color: darkgrey;
+  cursor: pointer;
+  max-width: 280px !important;
+  max-height: 110px !important;
+}

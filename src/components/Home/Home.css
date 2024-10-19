@@ -1,0 +1,124 @@
+.titleItem {
+  color: #207ef2 !important;
+  font-size: 14px !important;
+  text-transform: uppercase;
+  text-align: start;
+  display: inherit !important;
+}
+/* .container-form-modal-max {
+  padding: 10px 20px 10px !important;
+}
+.container-form-modal {
+  padding: 10px 20px 10px !important;
+} */
+.titleComponent {
+  color: #207ef2 !important;
+  text-transform: uppercase !important;
+}
+.titleComponentMobile {
+  color: #207ef2 !important;
+}
+.atention {
+  color: #f2af20 !important;
+  font-size: 20px !important;
+}
+.atentionast {
+  color: #f2af20 !important;
+  font-size: 20px !important;
+}
+.atention2 {
+  color: #000000 !important;
+  font-size: 12px !important;
+}
+/* .titleComponentRegisterMobile {
+  color: #ffffff !important;
+} */
+
+.justifyText {
+  text-align: left;
+  font-size: 11px;
+}
+
+.labelstyle {
+  background-color: transparent !important;
+}
+
+.liststyle {
+  max-height: 175px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 175px;
+}
+
+.iconstyle {
+  margin-right: 15px !important;
+}
+
+.priceIcon {
+  text-align: end !important;
+}
+
+.google-style {
+  width: 100% !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* #buy {
+  
+}
+
+#sell {
+  margin-left: 10px
+} */
+
+.image-banner {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.banner-item {
+  margin-bottom: 5px !important;
+}
+
+.flotante {
+  display: scroll;
+  z-index: 1;
+  position: fixed;
+  bottom: 90px;
+  right: 30px;
+  background-color: #207ef2 !important;
+  color: white !important;
+  -webkit-box-shadow: 0 4px 16px #777 !important;
+  -moz-box-shadow: 0 4px 16px #777 !important;
+  box-shadow: 0 4px 16px #777 !important;
+  width: 45px !important;
+  height: 45px !important;
+}
+
+.flotante-mobile {
+  display: scroll;
+  z-index: 1;
+  position: fixed;
+  bottom: 3000px;
+  right: 5px;
+  background-color: #207ef2 !important;
+  color: white !important;
+  -webkit-box-shadow: 0 4px 16px #777 !important;
+  -moz-box-shadow: 0 4px 16px #777 !important;
+  box-shadow: 0 4px 16px #777 !important;
+  width: 45px !important;
+  height: 45px !important;
+}
+.label-text-statistic {
+  font-size: 12px !important;
+  color: #207ef2 !important;
+  width: 180px !important;
+}
+.label-text-statistic2 {
+  font-size: 12px !important;
+  color: #207ef2 !important;
+  font-weight: 900;
+}

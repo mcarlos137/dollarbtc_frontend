@@ -1,0 +1,19 @@
+.rcw-conversation-container > .rcw-header {
+  background-color: #207ef2 !important;
+  padding-bottom: 5px;
+  padding-top: 8px;
+}
+.rcw-header > .rcw-title {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+}
+.rcw-launcher {
+  background-color: #207ef2 !important;
+  margin-right: 7px !important;
+}
+
+.rcw-client {
+  background-color: #6dadff !important;
+}

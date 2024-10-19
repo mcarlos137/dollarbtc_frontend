@@ -1,0 +1,9 @@
+.text-price {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.control-dots {
+    padding-left: 0px
+}

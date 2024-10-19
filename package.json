@@ -1,0 +1,114 @@
+{
+  "name": "dollarbtc_2_0",
+  "version": "0.1.61",
+  "designCompany": "MAIN",
+  "coreServiceURL": "https://service8081.dollarbtc.com",
+  "bushidoServiceURL": "https://service8080.dollarbtc.com/bushido-wallet-service-1.0.3",
+  "webSocketServiceURL": "wss://websocket.dollarbtc.com",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@react-pdf/renderer": "^1.6.2",
+    "@types/react": "^16.8.19",
+    "axios": "^0.18.1",
+    "bitcoin-transaction": "^1.2.1",
+    "bitcoinjs-lib": "^4.0.5",
+    "blob": "0.0.5",
+    "blog": "^1.0.0",
+    "debug-mode": "^2.0.0",
+    "franc": "^4.1.1",
+
+    "google-map-react": "^1.1.5",
+    "html2canvas": "^1.0.0-rc.3",
+    "jspdf": "^1.4.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "node-polyglot": "^2.4.0",
+    "office-ui-fabric-react": "^7.78.1",
+    "prop-types": "^15.7.2",
+    "public-ip": "^3.1.0",
+    "qrcode.react": "^0.8.0",
+    "query-string": "^6.6.0",
+    "react": "^16.8.6",
+    "react-adsense": "^0.1.0",
+    "react-alice-carousel": "^1.13.14",
+    
+    
+    "react-circular-progressbar": "^1.2.1",
+    "react-clear-cache": "^1.0.26",
+    "react-copy-to-clipboard": "^5.0.1",
+    "react-countdown-now": "^2.1.0",
+    "react-csv": "^2.0.3",
+    "react-dazzle": "https://github.com/samsch/dazzle/releases/download/1.4.0-cjs/react-dazzle-1.4.0.tgz",
+    "react-device-detect": "^1.6.2",
+    "react-dom": "^16.8.6",
+    "react-files": "^2.4.8",
+    "react-google-recaptcha": "^1.0.5",
+    "react-idle-timer": "^4.2.5",
+    "react-image-file-resizer": "^0.1.7",
+    "react-input-mask": "^2.0.4",
+    "react-map-gl": "^5.1.1",
+    "react-moment": "^0.8.4",
+
+    
+    "react-number-format": "^4.0.8",
+    "react-pdf": "^4.1.0",
+    "react-recaptcha": "^2.3.10",
+    "react-responsive-carousel": "^3.1.49",
+    "react-router-dom": "^4.3.1",
+    "react-router-hash-link": "^1.2.1",
+    "react-scripts": "^2.1.1",
+    "react-scroll": "^1.7.13",
+    "react-scroll-to": "^2.0.9",
+    "react-table": "^6.10.0",
+    "react-textarea-autosize": "latest",
+    "react-to-target-auto-scroll": "^1.0.4",
+    "react-tooltip": "^3.10.0",
+    "react-web-notification": "^0.5.0",
+    "react-webcam": "latest",
+    "react-websocket": "^2.0.1",
+    "recharts": "^1.6.2",
+    "recompose": "^0.30.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.84.0",
+    "socket.io-client": "^2.2.0",
+    
+    "sockette": "^2.0.5",
+    "typeface-montserrat": "0.0.54",
+    "underscore": "^1.9.1",
+    "unique-concat": "^0.2.2",
+    "universal-cookie": "latest",
+    "uuid": "^3.3.2",
+    "wallet-address-validator": "^0.2.4",
+    "xlsx": "^0.15.1"
+  },
+  "scripts": {
+    "generate-build-version": "node generate-build-version",
+    "prebuild": "npm version patch && npm run generate-build-version",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "debug": "react-scripts debug"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "terser-brunch": "^3.0.0"
+  }
+}

@@ -1,0 +1,51 @@
+#orangeNextSendBtn,
+#orangeCopyBtn,
+#orangeConfirmTokenBtn {
+  background-color: #f7921a;
+  color: white;
+}
+
+#orangeCopyBtn {
+  margin-left: 5px;
+}
+
+#qrSegmentTitle {
+  background-color: #207ef2;
+  color: #fff;
+}
+
+#qrCode {
+  height: auto !important;
+  width: 100% !important;
+  max-width: 200px;
+}
+
+#addressText {
+  word-break: break-all;
+  font-size: 16px;
+}
+
+.transactionTable {
+  text-align: center;
+}
+
+.-next,
+.-previous {
+  background-color: #f3f4f5;
+}
+
+.-btn {
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.fake-link {
+  color: #207ef2;
+  text-decoration: underline;
+  cursor: pointer;
+}
+@media only screen and (min-device-width: 300px) and (max-device-width: 768px) {
+  #receiveBitcoins {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+}

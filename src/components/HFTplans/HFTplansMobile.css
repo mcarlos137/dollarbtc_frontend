@@ -1,0 +1,125 @@
+.headerListPlansMobile {
+    color: #207ef2 !important;
+  }
+  .headerPlanMobile {
+    color: #f3f5f7 !important;
+  }
+  .headerPlan2Mobile {
+    color: #207ef2 !important;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .headerTitle {
+    color: #207ef2 !important;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 9px
+  }
+  .headerTitle2 {
+    color: #207ef2 !important;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 9px
+  }
+  /*.divider {
+    border:20px;
+    width:75%;
+    border-color:#207ef2;
+  }*/
+  
+  .infoCondition {
+    font-weight: bold;
+  }
+  
+  #minimumAmountToInvest {
+    color: #207ef2;
+    font-weight: bolder;
+  }
+  
+  .maxRisk {
+    color: red;
+  }
+  
+  .maxProfit {
+    color: green;
+    font-size: medium;
+  }
+  
+  #seeMoreChart {
+    background-color: #f7921a;
+    color: #fff;
+  }
+  
+  #noMovementsPlaceholder {
+    min-height: 0px;
+  }
+  
+  #expectedPerformanceLabel {
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  #actualPerformanceLabel {
+    width: 100%;
+  }
+  
+  #activatePlan {
+    background-color: #207ef2;
+  }
+  
+  .caracter-style {
+    padding-top: 20px!important
+  }
+  
+  .segment-custom {
+    border-top: 10px!important;
+  }
+  
+  .segment-custom {
+    border-top: 10px!important;
+  }
+
+  #top {
+
+    text-align: Center;
+    font-weight: bold;
+    text-transform: uppercase; 
+    border-top: 20px solid #2185d0!important;
+  }
+  
+  #plan1 {
+    border-top: 10px solid #2185d0!important;
+  }
+  
+  #plan2 {
+    border-top: 10px solid #2185d0!important;
+  }
+  
+  #plan3 {
+    border-top: 10px solid #2185d0!important;
+  }
+  
+  #plan4 {
+    border-top: 10px solid #2185d0!important;
+  }
+  
+  .messageStylePlanMobile {
+    text-align: right;
+    /* text-transform: uppercase; */
+    font-weight:  400;
+    font-size: 12px
+  }
+  .messageStylePlanMobile2 {
+    text-align: Center;
+    /* text-transform: uppercase; */
+    font-weight: medium;
+    font-size: 15px
+  }
+  .messageStylePlanMobile3 {
+    text-align: Left;
+    /* text-transform: uppercase; */
+    font-weight:  400;
+    font-size: 12px
+  }

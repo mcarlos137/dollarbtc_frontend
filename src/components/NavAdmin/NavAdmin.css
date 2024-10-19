@@ -1,0 +1,102 @@
+#home {
+  background-color: transparent;
+}
+
+.menu-item {
+  color: white;
+  font-size: 11px;
+  text-transform: uppercase !important;
+}
+
+.logo-item {
+  height: 50px;
+  width: 170px !important;
+}
+
+.logo {
+  width: 145px;
+  height: 35px;
+  margin-right: 1em;
+}
+
+.list-item-custom-admin {
+  color: #207ef2;
+  font-weight: bold;
+}
+
+#list-options-drop {
+  margin-top: 12px;
+}
+
+#profilemenu {
+  margin-left: 80px !important;
+}
+
+a#master-modulator.active.item {
+  font-weight: 1000 !important;
+}
+
+a#master-modulator.item:hover {
+  font-weight: 1000 !important;
+}
+
+a#master-account.active.item {
+  font-weight: 1000 !important;
+}
+
+a#master-account.item:hover {
+  font-weight: 1000 !important;
+}
+
+a#otc.active.item {
+  font-weight: 1000 !important;
+}
+
+a#otc.item:hover {
+  font-weight: 1000 !important;
+}
+
+a#admin.active.item {
+  font-weight: 1000 !important;
+}
+
+a#admin.item:hover {
+  font-weight: 1000 !important;
+}
+
+a#other.active.item {
+  font-weight: 1000 !important;
+}
+
+a#other.item:hover {
+  font-weight: 1000 !important;
+}
+
+a#profile.active.item {
+  font-weight: 900 !important;
+}
+
+a#profile.item:hover {
+  font-weight: 1000 !important;
+}
+
+#nad-help.ui.dropdown > .text {
+  margin-top: 3px !important;
+  color: white !important;
+  font-size: 11px;
+}
+
+.ui.fitted.toggle.checkbox input:focus:checked~.box:before,
+.ui.fitted.toggle.checkbox input:focus:checked~label:before {
+    background-color:#00ff00 !important
+}
+
+.ui.fitted.toggle.checkbox .box:before, .ui.toggle.checkbox label:before {
+    background-color: grey;
+}
+.ui.fitted.toggle.checkbox input:checked ~ .box:before,
+.ui.fitted.toggle.checkbox input:checked ~ label:before {
+  background-color: #00ff00 !important;
+}
+
+

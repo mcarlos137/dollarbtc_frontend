@@ -1,0 +1,35 @@
+.progresstyle {
+  width: 120px;
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 768px) {
+  .progresstyle {
+    width: 75px;
+    margin-left: 10px;
+  }
+}
+
+.headerList {
+  text-align: center;
+}
+
+.transactionTable {
+  text-align: center;
+}
+
+.inputStyle::placeholder {
+  color: grey !important;
+}
+
+.ui.input > input#phone-field::placeholder {
+  color: rgb(197, 194, 194) !important;
+}
+@media only screen and (min-device-width: 300px) and (max-device-width: 768px) {
+  #optionCurren {
+    margin-left: 7px !important;
+    margin-right: 7px !important;
+  }
+  #optionAccount {
+    margin-right: 7px !important;
+  }
+}

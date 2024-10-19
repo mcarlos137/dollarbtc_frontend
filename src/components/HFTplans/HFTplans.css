@@ -1,0 +1,82 @@
+.headerListPlans {
+  color: #207ef2 !important;
+}
+
+.headerPlan {
+  color: #207ef2 !important;
+}
+
+.infoCondition {
+  font-weight: bold;
+}
+
+#minimumAmountToInvest {
+  color: #207ef2;
+  font-weight: bolder;
+}
+
+.maxRisk {
+  color: red;
+}
+
+.maxProfit {
+  color: green;
+  font-size: medium;
+}
+
+#seeMoreChart {
+  background-color: #f7921a;
+  color: #fff;
+}
+
+#noMovementsPlaceholder {
+  min-height: 0px;
+}
+
+#expectedPerformanceLabel {
+  margin-top: 10px;
+  width: 100%;
+}
+
+#actualPerformanceLabel {
+  width: 100%;
+}
+
+#activatePlan {
+  background-color: #207ef2;
+}
+
+.caracter-style {
+  padding-top: 20px!important
+}
+
+.segment-custom {
+  border-top: 10px!important;
+}
+
+.segment-custom {
+  border-top: 10px!important;
+}
+
+#plan1 {
+  border-top: 10px solid #2185d0!important;
+}
+
+#plan2 {
+  border-top: 10px solid #2185d0!important;
+}
+
+#plan3 {
+  border-top: 10px solid #2185d0!important;
+}
+
+#plan4 {
+  border-top: 10px solid #2185d0!important;
+}
+
+.messageStylePlan {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 9px
+}

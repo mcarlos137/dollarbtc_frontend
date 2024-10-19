@@ -1,0 +1,10 @@
+.title-url {
+  color: black;
+}
+
+.text.extra {
+  cursor: pointer;
+}
+.list-posts{
+   border-top: 2px solid #f2711c !important;
+ }

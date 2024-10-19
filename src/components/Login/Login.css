@@ -1,0 +1,97 @@
+.titleComponent {
+  color: #207ef2 !important;
+  text-transform: uppercase !important;
+}
+
+.container-form {
+  padding: 20px 100px 15px 100px !important;
+}
+
+@media screen and (min-width: 300px) and (max-width: 410px) {
+  .container-form {
+    padding: 10px 20px 10px !important;
+  }
+  #reca {
+    margin-left: -55px !important;
+  }
+}
+
+@media screen and (min-width: 411px) and (max-width: 475px) {
+  .container-form {
+    padding: 10px 20px 10px !important;
+  }
+  #reca {
+    margin-left: -40px !important;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1125px) {
+  .container-form {
+    padding: 10px 20px 10px !important;
+  }
+  #reca {
+    margin-left: 180px !important;
+  }
+}
+
+@media screen and (min-width: 450px) and (max-width: 767px) {
+  .container-form {
+    padding: 10px 20px 10px 20px;
+  }
+  .g-recaptcha-response {
+    transform: scale(0.58) !important;
+    -webkit-transform: scale(0.58) !important;
+    transform-origin: 0 0 !important;
+    -webkit-transform-origin: 0 0 !important;
+  }
+  #reca {
+    margin-left: -55px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-form {
+    padding: 10px 100px 10px 100px !important;
+  }
+}
+
+#reca > div > div {
+  width: 0px !important;
+}
+
+#reca > div > div > div > iframe > html {
+  background: #207ef2;
+}
+/* > body
+  > div
+  > div
+  > div
+  > .rc-anchor-logo-landscape {
+  margin-left: 25px !important; */
+
+#reca > div {
+  text-align: center;
+}
+
+#reca {
+  width: 301px;
+  margin-left: 55px;
+}
+
+@media screen and (max-width: 240px) {
+  .g-recaptcha-response {
+    transform: scale(0.58) !important;
+    -webkit-transform: scale(0.58) !important;
+    transform-origin: 0 0 !important;
+    -webkit-transform-origin: 0 0 !important;
+  }
+}
+
+@media screen and (min-width: 319px) and (max-width: 375px) {
+  .g-recaptcha-response {
+    transform: scale(0.79) !important;
+    -webkit-transform: scale(0.79) !important;
+    transform-origin: 0 0 !important;
+    -webkit-transform-origin: 0 0 !important;
+  }
+}

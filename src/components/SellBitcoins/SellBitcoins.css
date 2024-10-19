@@ -1,0 +1,110 @@
+.grid.container {
+  margin-top: 5em;
+}
+
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.fondRed {
+  background-color: red;
+}
+
+.letterSmall {
+  font-size: smaller;
+}
+
+.widthFull {
+  width: 100%;
+}
+
+alignContentCenter {
+  align-content: center !important;
+}
+
+.widthFull {
+  width: 100%;
+}
+
+.width20 {
+  width: 40%;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.withOutPadding {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+div.-previous {
+  height: 28px;
+}
+
+div.-next {
+  height: 28px;
+}
+
+.marginStyle {
+  margin-top: -29px !important;
+}
+
+.no-margin {
+  margin-top: auto;
+}
+
+#add-file-button-save-sell {
+  margin-top: -2px;
+}
+
+#add-file-button-sell {
+  margin-right: 75px;
+}
+
+.field-send-bott {
+  padding-right: 4px !important;
+}
+
+.clainButtom {
+  font-size: 12px !important;
+}
+
+.padding-top-and-button {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}
+
+.padding-top-bottom-btn-marcar-pago {
+  padding-top: 8px !important;
+  padding-bottom: 12px !important;
+}
+
+.padding-top-message {
+  padding: 5px !important;
+  text-align: justify;
+  padding-bottom: 5px !important;
+  vertical-align: center !important;
+}
+
+.linkVerMas {
+  color: #008cba;
+  cursor: pointer !important;
+  font-weight: bold;
+}
+@media only screen and (min-device-width: 300px) and (max-device-width: 768px) {
+  #salesHistory {
+    margin-left: 10px !important;
+  }
+}
+.francesa {
+  text-indent: -30px;
+  position: absolute;
+  padding-left: 40px;
+}

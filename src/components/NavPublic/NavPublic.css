@@ -1,0 +1,107 @@
+#nad-help {
+  color: white !important;
+}
+
+#nad-help.ui.dropdown > .text {
+  margin-top: 3px !important;
+  color: white !important;
+  font-size: 11px;
+}
+
+div#lengu-select.ui.inline.dropdown
+  > div.menu.transition
+  > div.item
+  > span.text {
+  color: #207ef2;
+}
+div#lengu-selectGmb.ui.inline.dropdown
+  > div.menu.transition
+  > div.item
+  > span.text {
+  color: #000000;
+}
+.list-item-custom-public {
+  color: #207ef2;
+  font-weight: bold;
+  line-height: 1.5;
+}
+#lengu-select.ui.dropdown > .text {
+  /* color: white !important; */
+  color: white !important;
+  margin-right: 12px;
+}
+#lengu-select-convertrue.ui.dropdown > .text {
+  /* color: white !important; */
+  color: #207ef2 !important;
+  margin-right: 12px;
+}
+
+@media only screen and (max-device-width: 992px) {
+  #lengu-select.ui.dropdown > .text {
+    /* color: white !important; */
+    color: #207ef2 !important;
+    margin-right: 12px;
+  }
+}
+@media only screen and (max-device-width: 992px) {
+  #lengu-selectGmb.ui.dropdown > .text {
+    /* color: white !important; */
+    color: #000000 !important;
+    margin-right: 12px;
+  }
+}
+@media only screen and (max-device-width: 992px) {
+  #lengu-select-convertrue.ui.dropdown > .text {
+    /* color: white !important; */
+    color: #207ef2 !important;
+    margin-right: 12px;
+  }
+}
+
+div#lengu-select.ui.inline.dropdown > div.menu.transition {
+  margin-top: 10px;
+}
+
+#drop-nav-public > div.text {
+  color: #ffffff;
+  margin-right: 5px;
+  line-height: 1.5;
+}
+
+#drop-nav-public-convertrue > div.text {
+  color: #207ef2;
+  margin-right: 5px;
+  line-height: 1.5;
+}
+
+.nav-public {
+  background-color: #207ef2 !important; /* #207ef2 */
+  font-family: "Montserrat" !important;
+}
+.nav-publicClient {
+  background-color: #000000 !important; /* #207ef2 */
+  font-family: "Montserrat" !important;
+}
+.nav-publicConvertrue {
+  background-color: #ffffff !important; /* #207ef2 */
+  font-family: "Montserrat" !important;
+}
+.nav-publicConvertrue-som {
+  background-color: #ffffff !important; /* #207ef2 */
+  font-family: "Montserrat" !important;
+  -webkit-box-shadow: 0px 17px 17px 0px rgba(161, 156, 161, 0.7);
+  -moz-box-shadow: 0px 17px 17px 0px rgba(161, 156, 161, 0.7);
+  box-shadow: 0px 17px 17px 0px rgba(161, 156, 161, 0.7);
+}
+.nav-publicBrokers {
+  color: #174c8b !important; /* #207ef2 */
+  font-family: "Montserrat" !important;
+  font-size: 20px !important;
+  font-weight: 900;
+}
+.nav-publicBrokers-question {
+  color: #207ef2 !important; /* #207ef2 */
+  font-family: "Montserrat" !important;
+  font-size: 11px !important;
+  font-weight: 700;
+}

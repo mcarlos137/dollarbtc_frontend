@@ -1,0 +1,114 @@
+.window {
+  z-index: 1001;
+  position: fixed;
+  /*top: 160px;*/
+  right: 40px;
+  bottom: 230px;
+  border: 0px solid #000000;
+  /*border-radius: 15px 15px 15px 15px;*/
+  width: 320px;
+  height: 250px;
+  max-height: 250px;
+  max-width: 370px;
+  box-shadow: 1px 1px 100px 2px rgba(0, 0, 0, 0.22);
+  border-radius: 10px;
+  -webkit-transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+.window.is-visible {
+  opacity: 1;
+  -webkit-animation: zoomIn .2s cubic-bezier(.42, 0, .58, 1);
+  animation: zoomIn .2s cubic-bezier(.42, 0, .58, 1);
+}
+.window-header{
+  background-color: #207ef2 !important;
+  color:#ffffff !important;
+  font-family: "Montserrat", sans-serif;
+  font-size:17px !important;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.window-subheader{
+  color: white;
+  font-size: 12px;
+}
+.message {
+  overflow: hidden;
+}
+.ballon {
+  float: left;
+  background: #f4f7f9;
+  border-radius: 10px;
+  padding: 8px 5px;
+  margin-bottom: 5px;
+  font-size: small;
+  /*width: 180px !important;*/
+  max-width: 230px;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.07);
+}
+.ballon-user {
+  float: right;
+  background: #A0E0F7;
+  border-radius: 10px;
+  padding: 8px 5px;
+  margin-bottom: 5px;
+  font-size: small;
+  /*width: 180px!important;*/
+  max-width: 230px;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.07);
+}
+
+.floating-chat {
+  z-index: 998;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #207ef2 !important;
+  color: white !important;
+  box-shadow: 0 4px 16px #777 !important;
+  border-radius: 50% !important;
+  padding: 14px 15px !important;
+}
+
+.chat-textarea {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  height: 3em !important;
+  min-height: 3em !important;
+  max-height: 16em !important;
+  margin: 0;
+  -webkit-appearance: none;
+  tap-highlight-color: rgba(255,255,255,0);
+  padding: .78571429em 1em;
+  background: #fff;
+  border: 1px solid rgba(34,36,38,.15);
+  outline: 0;
+  color: rgba(0,0,0,.87);
+  border-radius: .28571429rem;
+  box-shadow: 0 0 0 0 transparent inset;
+  transition: color .1s ease,border-color .1s ease;
+  font-size: small;
+  line-height: 1.2857;
+  resize: vertical;
+}
+.chat-bottom{
+  padding: 5px !important;
+}
+
+.container-messages{
+  max-height: 250px;
+  height: 250px;
+  overflow: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.fabs {
+  bottom: 0;
+  position: fixed;
+  margin: 1em;
+  right: 0;
+  z-index: 998;
+
+}

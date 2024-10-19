@@ -1,0 +1,21 @@
+div#list-options-drop-side.menu.transition.visible {
+  left: auto !important;
+  margin-top: 42px !important;
+  width: 155px !important;
+  right: 0px !important;
+}
+
+.list-item-custom-admin-side {
+  font-size: 12px;
+  color: #207ef2;
+}
+
+#home-mobile-version-menu-login {
+  margin-top: 65px;
+  -webkit-box-shadow: 0 4px 16px rgb(182, 181, 181);
+  -moz-box-shadow: 0 4px 16px rgb(182, 181, 181);
+  box-shadow: 0 4px 16px rgb(182, 181, 181);
+}
+.ui.visible.left.sidebar ~ .pusher {
+  transform: translate3d(150px, 0, 0) !important;
+}

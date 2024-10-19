@@ -1,0 +1,151 @@
+alignContentCenter {
+	align-content: center !important;
+}
+
+.widthFull {
+	width: 100%;
+}
+
+.width20 {
+	width: 40%;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.withOutPadding {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+div.-previous {
+	height: 28px;
+}
+
+div.-next {
+	height: 28px;
+}
+
+.letterSmall{
+	font-size: 0.9em !important
+}
+
+.marginTopAndLetterSmall{
+	font-size: 0.9em !important;
+	margin-top: 1em;
+
+}
+
+.marginTopAndLetterSmallTasaForex{
+	font-size: 0.9em !important;
+	margin-top: 1.2em;
+    margin-left: 4em;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.marginTop{
+	margin-top: 1.8em !important;
+
+}
+.marginTopMedium{
+	margin-top: 0.4em !important;
+}
+
+.sizeSement{
+	width: 240px;
+	height: 220px;
+	min-height: 1rem !important;
+}
+
+.imageFile{
+	width: 100%;
+	height: 100%;
+	border: "2px";
+	align-content:center;
+    border-style: dashed;
+  	border-color: darkgrey;
+  	cursor:pointer;
+  	max-width: 1800px !important;
+  	max-height: 140px !important;
+}
+
+#add-file-button-buy {
+	font-size: 12px!important
+}
+
+#add-file-button-save {
+	font-size: 12px!important
+}
+
+.field-send-bott {
+	padding-right: 4px!important
+}
+
+.padding-top-and-button{
+	padding-top: 8px!important;
+	padding-bottom: 8px!important;
+}
+
+.padding-top-bottom-btn-marcar-pago{
+	padding-top: 8px!important;
+	padding-bottom: 12px!important;
+}
+
+.padding-top-message{
+	padding: 1px !important;
+	text-align: justify;
+	padding-bottom: 1px !important;
+	vertical-align: center !important;
+
+}
+
+.marginLeftOneEm{
+	margin-left: 1em !important;
+}
+
+.paddingLeftRighFormBuy{
+	padding-left: 2em !important;
+	padding-right: 2em !important;
+}
+.notBold{
+    font-weight: normal !important;
+}
+.no-margin {
+    margin-top: auto
+}
+
+.marginStyle {
+    margin-top: -29px!important;
+}
+.iconEth{
+	display: inline-block!important;
+	width: 25px!important;
+	height: 17px!important;
+	line-height: 11px!important;
+	vertical-align: baseline!important;
+	margin: 0 .05em 0 0!important;
+	text-decoration: inherit!important;
+	speak: none!important;
+	font-smoothing: antialiased!important;
+	-webkit-backface-visibility: hidden!important;
+	backface-visibility: hidden!important;
+}
+
+
+.linkVerMas {
+	color: #008CBA;
+	cursor: pointer!important;
+    font-weight: bold;
+}
+
+.ApplyZindex{
+	z-index: 20 !important;
+}
+.titleMobile {
+	color: #207ef2 !important;
+	font-weight: bold;
+  }

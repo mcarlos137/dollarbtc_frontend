@@ -1,0 +1,52 @@
+.button-download {
+  border-bottom-left-radius: 25px !important;
+  border-top-left-radius: 25px !important;
+  border-bottom-right-radius: 25px !important;
+  border-top-right-radius: 25px !important;
+  position: relative;
+  left: 538px;
+  top: -190px;
+  z-index: 1;
+}
+.button-logueado{
+ border-bottom-left-radius: 25px !important;
+  border-top-left-radius: 25px !important;
+  border-bottom-right-radius: 25px !important;
+  border-top-right-radius: 25px !important;
+  position: relative;
+  top: -150px;
+  z-index: 1;
+}
+
+.title-download {
+  border-bottom-left-radius: 25px !important;
+  border-top-left-radius: 25px !important;
+  border-bottom-right-radius: 25px !important;
+  border-top-right-radius: 25px !important;
+  position: relative;
+  color: #015981 !important;
+  font: sans-serif !important;
+  font-weight: bold !important;
+  left: 538px;
+  top: -220px;
+  z-index: 1;
+}
+.title-logueado{
+  border-bottom-left-radius: 25px !important;
+  border-top-left-radius: 25px !important;
+  border-bottom-right-radius: 25px !important;
+  border-top-right-radius: 25px !important;
+  position: relative;
+  color: #015981 !important;
+  font: sans-serif !important;
+  font-weight: bold !important;
+  top: -150px;
+  z-index: 1;
+}
+
+.img-background {
+  margin-bottom: -143px !important;
+}
+.logo-storeMC {
+  padding: 8px !important;
+}

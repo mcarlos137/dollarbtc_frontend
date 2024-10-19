@@ -1,0 +1,49 @@
+.legal-content {
+  font-size: 1rem;
+  line-height: 20px;
+  text-align: justify;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.legal-content2 {
+  font-size: 1rem;
+  line-height: 20px;
+  text-align: justify;
+  padding-left: 85px;
+  padding-right: 40px;
+}
+.legal-link {
+  font-size: 1rem;
+  line-height: 20px;
+  text-align: left;
+  text-indent: -2.8rem;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.bleeding {
+  padding-left: 70px;
+  padding-right: 40px;
+  text-indent: 30px;
+  text-align: left;
+  line-height: 20px;
+  display: inline-block;
+}
+.bleeding2 {
+  padding-left: 110px;
+  padding-right: 40px;
+  text-indent: -11px;
+  text-align: left;
+  line-height: 25px;
+  display: block;
+}
+.legal-title {
+  padding-left: 25px;
+  padding-right: 25px;
+  color: rgb(94, 91, 91);
+}
+
+.legal-title:hover {
+  color: #207ef2 !important;
+  padding-left: 25px;
+  padding-right: 25px;
+}

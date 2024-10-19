@@ -1,0 +1,31 @@
+.message {
+  overflow: hidden;
+}
+
+.balloon {
+  float: left;
+  background: #f4f7f9;
+  border-radius: 10px;
+  padding: 8px 5px;
+  margin-bottom: 5px;
+  font-size: small;
+  max-width: 380px;
+}
+.balloon-user {
+  float: right;
+  background: #A0E0F7;
+  border-radius: 10px;
+  padding: 8px 5px;
+  margin-bottom: 5px;
+  font-size: small;
+  max-width: 380px;
+  text-align: right;
+}
+
+.container-msg{
+  max-height: 350px;
+  height: 350px;
+  overflow: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
